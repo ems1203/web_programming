@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Finki &amp; Recipes </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<style>
+    *{
+        font-family: sans-serif;
+    }
+    body{
+        border-top: #fdd857 solid 8px;
+        border-bottom: #fdd857 solid 8px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url('images/bg-body.jpg');
+    }
+    .header0{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+    }
+    .header0 div{
+        width: 100%;
+        top: 50%;
+    }
+    .body0{
+        display: grid;
+        grid-template-columns: 75% 25%;
+    }
+    .body0 .header ul{
+        list-style-type:none;
+        display: flex;
+        padding: 2.5%;
+        color: beige;
+        background-color: #a99d8c;
+        justify-content: space-between;
+        text-transform: uppercase;
+        width: 95%;
+        margin: 0 auto;
+        font-size:12px;
+        border-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .body0 .header ul a{
+        text-decoration: none;
+        color: beige;
+    }
+    .body ul{
+    	display: grid;
+    	grid-template-columns: 33% 35% 32%;
+    	list-style-type: none;
+    	margin: 0 auto;
+    	padding: 0px;
+    }
+    .body ul li{
+    	display: grid;
+    	grid-template-columns: 30% 70%;
+    	width: 100%;
+    	margin: 0;
+    }
+    .body ul li div{
+    	width: 100%;
+    	margin: 0 auto;
+    	padding: 0;
+
+    }
+    .body ul li h2{
+    	width: 100%;
+    	margin: 0 auto;
+    	padding: 0;
+    	text-transform: uppercase;
+    	text-decoration: none;
+    }
+    .body ul a{
+    	font-family: 'Times New Roman', Times, serif;
+    	text-transform: uppercase;
+    	text-decoration: none;
+    	font-size: 20px;
+    }
+    .footer ul{
+    	display: grid;
+    	grid-template-columns: 50% 50%;
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0px;
+    	text-align: center;
+    	width: 100%;
+    }
+    .footer ul li{
+    	background-image: url('images/bg-frame.png');
+    	background-repeat: no-repeat;
+    	align-content: middle;
+    	background-position-x: center;
+    	margin-top:30px;
+    	padding: 0;
+    	width: 95%;
+    	background-size: 95%;
+    	color: #1B843D;
+    }
+    .footer ul a{
+    	font-family: 'Times New Roman', Times, serif;
+    	text-transform: uppercase;
+    	text-decoration: none;
+    	font-size: 20px;
+    	color: #1B843D;
+    }
+    #featured{
+    	list-style-type: none;
+    }
+    #featured ul{
+    	width: 100%;
+    	margin:0;
+    	padding: 0;
+    }
+    #featured div{
+    	display: inline-block;
+    	position: relative;
+    	padding: 0;
+    	margin: 0;
+    	font-size: 15px;
+    }
+    #blog{
+    	list-style-type:none;
+    	color: #6A4B10;
+    	padding-left: 15px;
+    	margin: 0;
+    }
+    #blog a{
+    	font-family: 'Times New Roman, Times, serif';
+    	text-transform: none;
+    	text-decoration: none;
+    	color: #6A4B10;
+    	font-size: 17px;
+    }
+    #blog span{
+
+    	font-size: 12px;
+    }
+    #last{
+    	display: grid;
+    	grid-template-columns: 20% 80%;
+    }
+    #lol a{
+    	text-transform: none;
+    	text-decoration: none;
+    	color: #6A4B10;
+    }
+
+</style>
+</head>
+<body>
+    <div class="header0">
+        <div>
+            <img style = "width: 100%" src="images/logo.png">
+        </div>
+        <form style = "width: 90%" action="index.html" style = "display:inline-flex;">
+            <input style = "width: 90%; display: inline-flex; padding-left:5px" type="text" value="Search from our 10,000+ Recipes around the world" id="search">
+            <input type="submit"  style = "display: inline-flex;" value="" id="searchbtn">
+        </form>
+    </div>
+    <div class="body0">
+        <div>
+            <div class="header">
+                <ul>
+                    <li class="current">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">A to Z Recipes</a>
+                    </li>
+                    <li>
+                        <a href="#">Featured Recipes</a>
+                    </li>
+                    <li>
+                        <a href="#">Videos</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <img style="width: 100%; margin: 0 auto; border: 2px solid white ;" src="images/turkey.jpg">
+            <div class="body">
+                <ul>
+                    <li class="current"  style = "background-color: #FFFFFF; padding-top:10px; padding-bottom:10px;">
+                        <img src="images/holi-turkey.jpg" style = "padding-left: 10px;">
+                        <div>
+                            <h2><a style="color: #820000;padding-left: 10px;" href="#">Holy Turkey</a></h2>
+                            <p style = "padding-left: 10px;margin:0; color: #BF9B87;">
+                                This is just a place holder
+                            </p>
+                        </div>
+                    </li>
+                    <li style = "background-color: #80AB8D; padding-top:10px; padding-bottom:10px;">
+                        <img src="images/fruits-and-bread.jpg" style = "padding-left: 10px;">
+                        <div>
+                            <h2><a style="color: #FFFFFC;padding-left: 1px;" href="#">Fruits &amp; Bread</a></h2>
+                            <p style = "padding-left: 1px;margin:0; color: #FFFFFF">
+                                This is just a place holder
+                            </p>
+                        </div>
+                    </li>
+                    <li style = "background-color: #80AB8D; padding-top:10px; padding-bottom:10px;">
+                        <img src="images/dessert.jpg" style = "padding-left: 10px;">
+                        <div>
+                            <h2><a style="color: #FFFFFC;padding-left: 10px;" href="#">Dessert</a></h2>
+                            <p style = "padding-left: 10px; margin:0;  color: #FFFFFF">
+                                This is just a place holder
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer">
+                <ul>
+                    <li>
+                        <h2><a href="#">Featured Recipes</a></h2>
+                        <img src="images/featured.jpg" style = "width: 90%;">
+                        <a href="#"></a>
+                    </li>
+                    <li>
+                        <h2><a href="#">A to Z Recipes</a></h2>
+                        <img src="images/a-z.jpg" style = "width: 90%;">
+                        <a href="#"></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h2><a href="#">Videos</a></h2>
+                        <img src="images/videos.jpg" style = "width: 90%;">
+                        <a href="#"></a>
+                    </li>
+                    <li>
+                        <h2><a href="#">Blog</a></h2>
+                        <img src="images/blog.jpg" style = "width: 90%;">
+                        <a href="#"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div style = "text-align: center;">
+                <h3 style = "padding-left: 0px; text-transform: uppercase; color: #7F0023; font-family: 'Times New Roman', Times, serif;">Cooking Video</h3>
+
+                <a href="#"></a>
+                <img src="images/cooking-video.png" style = "width: 100%; padding-left: 15px;">
+                <span style = "padding-left: 15px; text-transform: uppercase; font-family: 'Times New Roman', Times, serif; color: #6A4B10;">Vegetable &amp; Rice Topping</span>
+            </div>
+            <div style = "padding-left: 15px;">
+                <h3 style = "padding-left: 15px; text-transform: uppercase; color: #7F0023; font-family: 'Times New Roman', Times, serif;padding-left: 15px;">Featured Recipes</h3>
+                <ul id="featured" style = "padding-left: 15px; margin: 0">
+                    <li style = "display: inline-flex; margin-top: 5px;margin-bottom:5px;">
+                        <a href="#"><img src="images/sandwich.jpg" alt="Image" style = "padding: 5px; margin: 0; display: inline-block; position: relative;"></a>
+                        <div style = "display: inline-block; position: relative;" >
+                            <h2 style = "padding: 0; margin:0"><a href="#" style = "display: inline-block; position: relative; text-transform: uppercase; text-decoration: none; color: #6A4B10; font-family: 'Times New Roman', Times, serif; padding: 0; margin:0">Ham Sandwich</a></h2>
+                            <span style = "color: #6A4B10;">by: Anna</span>
+                        </div>
+                    </li>
+                    <li style = "display: inline-flex; margin-top: 5px;margin-bottom:5px;">
+                        <a href="#"><img src="images/biscuit-and-coffee.jpg"  style = "padding: 5px; margin: 0; display: inline-block; position: relative;" alt="Image"></a>
+                        <div>
+                            <h2 style = "padding: 0; margin:0"><a href="#"  style = "display: inline-block; position: relative; text-transform: uppercase; text-decoration: none; color: #6A4B10; font-family: 'Times New Roman', Times, serif; padding: 0; margin:0">Biscuit &amp; Sandwich</a></h2>
+                            <span style = "color: #6A4B10;">by: Sarah</span>
+                        </div>
+                    </li>
+                    <li style = "display: inline-flex; margin-top: 5px;margin-bottom:5px;">
+                        <a href="#"><img src="images/pizza.jpg"  style = "padding: 5px; margin: 0; display: inline-block; position: relative;" alt="Image"></a>
+                        <div>
+                            <h2 style = "padding: 0; margin:0"><a href="#"  style = "display: inline-block; position: relative; text-transform: uppercase; text-decoration: none; color: #6A4B10; font-family: 'Times New Roman', Times, serif; padding: 0; margin:0">Delicious Pizza</a></h2>
+                            <span style = "color: #6A4B10;">by: Rico</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 style = "padding-left: 15px; text-transform: uppercase; color: #7F0023; font-family: 'Times New Roman', Times, serif;padding-left: 15px;">Blog</h3>
+                <ul id="blog">
+                    <li>
+                        <a href="#">This is just a place holder, so you can see what the site would look like.</a><br>
+                        <span class="date">Jan 9, by Liza</span>
+                        <hr style = "width: 100%;">
+                    </li>
+                    <li>
+                        <a href="#">This is just a place holder, so you can see what the site would look like.</a><br>
+                        <span class="date">Feb 16, by Myk</span>
+                        <hr style = "width: 100%;">
+                    </li>
+                    <li>
+                        <a href="#">This is just a place holder, so you can see what the site would look like.</a><br>
+                        <span class="date">March 15, by Xaxan</span>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 style = "padding-left: 15px; text-transform: uppercase; color: #7F0023; font-family: 'Times New Roman', Times, serif;padding-left: 15px;">Get Updates</h3>
+                <div id="last">
+                	<div>
+                	<img src="images/icons.png">
+                	</div>
+                <div id="lol">
+                <a href="#" target="_blank" id="facebook">Facebook</a><br><br>
+                <a href="#" target="_blank" id="twitter">Twitter</a><br><br>
+                <a href="#" target="_blank" id="youtube">Youtube</a><br><br>
+                <a href="#" target="_blank" id="flickr">Flickr</a><br><br>
+                <a href="#" target="_blank" id="googleplus">Google&#43;</a>
+            	</div>
+            	</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div>
+            <p style="color:#6A4B10"><center style="color:#6A4B10">
+                &copy; Copyright 2012. All rights reserved
+            </center></p>
+        </div>
+    </div>
+</body>
+</html>
